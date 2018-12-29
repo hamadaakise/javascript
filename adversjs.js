@@ -42,12 +42,12 @@ function adb_warning(url, text, button) {
 
 function getHelpImg() {
     var ua = window.navigator.userAgent,
-        img = document.location.protocol + '//4.bp.blogspot.com/-vkD4WQUxafo/W_tKeD7jRXI/AAAAAAAAAko/KXDic19Oib4_1R0sQt9YOpknO4yFSj1BQCLcBGAs/s320/script%2Banti%2Badblock.png';
+        img = document.location.protocol + '//4.bp.blogspot.com/-vkD4WQUxafo/W_tKeD7jRXI/AAAAAAAAAko/KXDic19Oib4_1R0sQt9YOpknO4yFSj1BQCLcBGAs/s320/';
 
     if (ua.indexOf('Chrome/') > -1) {
-        img;
+        img += 'script%2Banti%2Badblock.png';
     } else if (ua.indexOf('Firefox/') > -1) {
-        img;
+        img +='script%2Banti%2Badblock.png';
     } else {
         img = -1;
     }
