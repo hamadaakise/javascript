@@ -42,7 +42,7 @@ function adb_warning(url, text, button) {
 
 function getHelpImg() {
     var ua = window.navigator.userAgent,
-        img = document.location.protocol + '//drive.google.com/open?id=1v0HkTZ_aQNvWjh38J9naE2y79s8PplHk';
+        img = document.location.protocol + '//4.bp.blogspot.com/-vkD4WQUxafo/W_tKeD7jRXI/AAAAAAAAAko/KXDic19Oib4_1R0sQt9YOpknO4yFSj1BQCLcBGAs/s320/script%2Banti%2Badblock.png';
 
     if (ua.indexOf('Chrome/') > -1) {
         img;
